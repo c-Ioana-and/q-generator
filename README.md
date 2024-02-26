@@ -1,9 +1,9 @@
-## Genetator de chestionare
+# Genetator de chestionare
 
-# Scop
+## Scop
 Acomodarea cu Java, conceptele programării orientate obiect (în cazul acestui proiect, cu encapsularea), folosirea comenzilor de I/O.
 
-# Implementare
+## Implementare
 
 1. [Tema1](src/main/java/com/example/project/Tema1.java), in care parsez textul dat prin consola. Toate metodele care se afla deasupra main-ulu (_parseCheckUserInfo, addUser, addQuestion, getQuestionID, addQuiz, submitQuiz, deleteQuiz_) corespund comenzilor care necesita o abordare mai riguroasa :)
 2. [User](src/main/java/com/example/project/Tema1.java), care retine datele fiecarui user: username, parola, un vector de intrebari create de acel user (_Question[] questions_). De asemenea, clasa contine un vector si o variabila statica pentru a retine userii creati, precum si numarul de useri existenti. Username-urile si parolele corespunzatoare sunt stocate in fisierul Users.csv. Aceasta clasa contine urmatoarele metode:
